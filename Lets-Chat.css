@@ -1,0 +1,102 @@
+body{
+    overflow: hidden;
+}
+
+.sidenav{
+    background: linear-gradient(45deg, #33ccff,#a460d9);
+    height: 900px;
+    width: 48%;
+}
+
+h3{
+    color: rgb(0, 0, 0, 0.9);
+    font-weight: 600;
+    text-align: center;
+}
+
+
+img{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    border: 0.1px solid #ff0;
+    border-radius: 1ch;
+    background: #33ddff;
+}
+
+.items img{
+    position: absolute;
+    left: 38%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.items h3{
+    position: absolute;
+    left: 30%;
+    top: 43%;
+    transform: translateX(-20%);
+}
+
+.container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 900px;
+    width: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user_name{
+    width: 400px;
+    border-radius: 50%;
+}
+
+h2{
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    top: -60px;
+}
+
+.container h2{
+    position: absolute;
+    top: 30%;
+    left: 30px;
+}
+
+.input-group{
+    align-items: left;
+    position: absolute;
+    width: 500px;
+    left: 30px;
+    top: 40%;
+}
+
+
+#login_btn{
+    position: absolute;
+    top: 60%;
+    right: 620px;
+}
+
+
+.items h4{
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+    transform: translateX(-20%);
+    z-index: 999;
+    color: #000;
+}
+
+
+.items h6{
+    color: #000;
+    position: absolute;
+    left: 25%;
+    top: 48%;
+    font-size: 17px;
+}
